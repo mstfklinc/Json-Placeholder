@@ -13,6 +13,9 @@
 		18CA94EA23D30ABB001B8015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA94E823D30ABB001B8015 /* Main.storyboard */; };
 		18CA94EC23D30ABC001B8015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA94EB23D30ABC001B8015 /* Assets.xcassets */; };
 		18CA94EF23D30ABC001B8015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA94ED23D30ABC001B8015 /* LaunchScreen.storyboard */; };
+		18CA94FB23D31F7E001B8015 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA94FA23D31F7E001B8015 /* CustomViewController.swift */; };
+		18CA950323D34B71001B8015 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA950223D34B71001B8015 /* PhotosViewController.swift */; };
+		18CA950523D35775001B8015 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA950423D35775001B8015 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		18CA94EB23D30ABC001B8015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CA94EE23D30ABC001B8015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CA94F023D30ABC001B8015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA94FA23D31F7E001B8015 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		18CA950223D34B71001B8015 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		18CA950423D35775001B8015 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				18CA94EB23D30ABC001B8015 /* Assets.xcassets */,
 				18CA94ED23D30ABC001B8015 /* LaunchScreen.storyboard */,
 				18CA94F023D30ABC001B8015 /* Info.plist */,
+				18CA94FA23D31F7E001B8015 /* CustomViewController.swift */,
+				18CA950223D34B71001B8015 /* PhotosViewController.swift */,
+				18CA950423D35775001B8015 /* PhotoCell.swift */,
 			);
 			path = JsonPlaceholder;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CA94E723D30ABB001B8015 /* ViewController.swift in Sources */,
+				18CA94FB23D31F7E001B8015 /* CustomViewController.swift in Sources */,
 				18CA94E323D30ABB001B8015 /* AppDelegate.swift in Sources */,
 				18CA94E523D30ABB001B8015 /* SceneDelegate.swift in Sources */,
+				18CA950523D35775001B8015 /* PhotoCell.swift in Sources */,
+				18CA950323D34B71001B8015 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
